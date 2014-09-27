@@ -1,0 +1,24 @@
+{
+    "name": "pushin/incremental-version-migrator",
+    "description": "Incremental versioning migration framework",
+    "homepage": "http://github.com/pushin/incremental-version-migrator",
+    "keywords": ["version", "versioning", "migrations"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pushin Konstantin",
+            "email": "hello@pushin.pro",
+            "homepage": "http://pushin.pro"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "psr/log": "1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pushin\\IncrementalVersionMigrator\\": "src",
+            "Pushin\\IncrementalVersionMigrator\\Tests\\": "tests"
+        }
+    }
+}
